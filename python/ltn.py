@@ -126,7 +126,6 @@ if __name__ == '__main__':
             print('\n------------------------\n')
             print('正在獲取第' + str(j) + '頁')
             print('\n------------------------\n')
-            print('總共 {} 頁'.format(the_last_page))
             get_news_url(url)
             get_content(url_list)
     write_to_csv()
